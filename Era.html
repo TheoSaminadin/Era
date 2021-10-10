@@ -5,16 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Era</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="menu">
-        <div class="logo-box"> <img src="img/era_logo.svg" alt="LOGO"></div>
+
+        <div class="logo-box">
+            <a href="#"> <img src="img/era_logo.svg" alt="LOGO"> </a>
+        </div>
+
         <div class="ancre">
-            <a href="">exhibitions</a>
-            <a href="">about</a>
+            <a href="#exhib">exhibitions</a>
+            <a href="#artiste">artiste</a>
 
         </div>
 
@@ -25,7 +29,7 @@
         </div>
     </div>
 
-    <div class="page2-main-box">
+    <div id="exhib" class="page2-main-box">
         <div class="column-gauche">
             <canvas id="canvas1"></canvas>
         </div>
@@ -93,7 +97,7 @@
         </div>
     </div>
 
-    <div class="page6-main-box">
+    <div id="artiste" class="page6-main-box">
 
         <div class="column page6-petra"><img id="canvasPetra" src="img/petra collins.png" alt="petra"></div>
         <div class="column page6-carter"><img id="canvasCarter" src="img/carter.png" alt="carter"></div>
